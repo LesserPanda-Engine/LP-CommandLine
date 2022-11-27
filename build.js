@@ -207,6 +207,8 @@ function build(gameDir, callback, param) {
           return;
         }
 
+        console.log(stats.toString());
+
         // Start to copy resources
         console.log(`${cliPrefix} ${colors.yellow('Copy media...')}`);
 
